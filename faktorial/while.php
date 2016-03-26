@@ -32,7 +32,7 @@ if((isset($n))and($n!=NULL)){
 echo '<h4>Hasil Faktorial :</h4>';
 echo '=> ';
 $i=0;
-while($i<$n){
+while($i<$n-1){
 	$i++;
 	echo $i.'x';
 }
